@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"lib": [
+			"es2016"
+		],
+		"target": "es5",
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": false,
+		"strictNullChecks": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"files": [
+		"index.ts",
+		"test.ts"<% if (cli) { %>,
+		"cli.ts"
+	<% } %>
+	]
+}

@@ -1,0 +1,3 @@
+node_modules<% if (nyc) { %>
+.nyc_output
+coverage<% } %>

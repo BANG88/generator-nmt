@@ -1,0 +1,52 @@
+{
+  "name": "generator-nmt",
+  "version": "0.0.0",
+  "description": "Scaffold out a node module use TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bang88/generator-nmt.git"
+  },
+  "author": "bang <sqibang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bang88/generator-nmt/issues"
+  },
+  "homepage": "https://github.com/bang88/generator-nmt#readme",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "dev": "ava -w"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "boilerplate",
+    "template",
+    "scaffold"
+  ],
+  "dependencies": {
+    "humanize-url": "^1.0.1",
+    "normalize-url": "^1.2.0",
+    "superb": "^1.1.3",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "pify": "^2.2.0",
+    "xo": "*",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "xo": {
+    "esnext": true,
+    "ignores": [
+      "app/templates/**"
+    ]
+  }
+}

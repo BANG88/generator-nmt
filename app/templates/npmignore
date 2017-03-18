@@ -1,0 +1,6 @@
+index.ts
+test.ts
+cli.ts
+tsconfig.json
+tslint.json
+snapshots*
