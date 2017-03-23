@@ -10,7 +10,7 @@ $ npm install --save <%= moduleName %>
 
 # or
 
-$ yarn add --save <%= moduleName %>
+$ yarn add <%= moduleName %>
 ```
 
 
