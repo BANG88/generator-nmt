@@ -1,6 +1,6 @@
 {
   "name": "generator-nmt",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Scaffold out a node module use TypeScript",
   "repository": {
     "type": "git",
