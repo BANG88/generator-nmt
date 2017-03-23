@@ -21,7 +21,8 @@
     "cli",<% } %>
     ""
   ],
-  "dependencies": {<% if (cli) { %>
+  "dependencies": {
+		"tslib": "^1.6.0"<% if (cli) { %>,
     "meow": "^3.7.0"
   <% } %>},
   "devDependencies": {

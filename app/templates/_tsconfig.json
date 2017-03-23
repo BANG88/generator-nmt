@@ -3,6 +3,7 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"lib": [
+			"dom",
 			"es2016"
 		],
 		"target": "es5",
@@ -14,7 +15,8 @@
 		"strictNullChecks": true,
 		"suppressImplicitAnyIndexErrors": true,
 		"noUnusedLocals": true,
-		"allowSyntheticDefaultImports": true
+		"allowSyntheticDefaultImports": true,
+		"importHelpers": true
 	},
 	"files": [
 		"index.ts",
