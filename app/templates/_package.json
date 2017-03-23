@@ -12,7 +12,6 @@
   "scripts": {
     "test": "npm run lint && <% if (nyc) { %>nyc <% } %>ava --verbose",
 		"lint": "tslint --project ./tsconfig.json --fix",
-		"postinstall": "tsc && npm test",
 		"start": "tsc -w"
   },
 	"typings": "index.d.ts",
