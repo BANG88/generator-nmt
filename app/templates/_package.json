@@ -24,7 +24,8 @@
   "dependencies": {
 		"tslib": "^1.6.0"<% if (cli) { %>,
     "meow": "^3.7.0"
-  <% } %>},
+  <% } %>
+	},
   "devDependencies": {
 		"@types/node": "^7.0.8",
     "ava": "^0.18.2",
