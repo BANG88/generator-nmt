@@ -28,7 +28,7 @@
 		"@types/node": "^7.0.8",
     "ava": "^0.18.2",
     "tslint": "^4.5.1",
-    "tslint-config-xo": "^1.1.0",
+    "tslint-eslint-rules": "^3.5.1",
     "typescript": "^2.2.1"<% if (coveralls) { %>,
     "coveralls": "^2.11.12",<% } %><% if (nyc) { %>
     "nyc": "^10.0.0"<% } %>

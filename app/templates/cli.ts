@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-import <%= camelModuleName %> from './index';
+const meow = require('meow')
+import <%= camelModuleName %> from './index'
 
 const cli = meow(`
 	Usage
@@ -15,6 +14,6 @@ const cli = meow(`
 	  unicorns & rainbows
 	  $ <%= repoName %> ponies
 	  ponies & rainbows
-`);
+`)
 
-console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'));
+console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'))
