@@ -1,6 +1,5 @@
-index.ts
-test.ts
-cli.ts
+*.ts
+!*.d.ts
 tsconfig.json
 tslint.json
 snapshots*
