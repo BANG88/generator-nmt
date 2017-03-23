@@ -4,3 +4,4 @@ coverage<% } %>
 *.js
 *.d.ts
 .yo-rc.json
+.vscode
