@@ -4,7 +4,7 @@
   "description": "<%= moduleDescription %>",
   "license": "MIT",
   "repository": "<%= githubUsername %>/<%= repoName %>",
-  "author": "<%= name %> <%= email %> <%= humanizedWebsite %> ",<% if (cli) { %>
+  "author": "<%= name %> <<%= email %>> <%= humanizedWebsite %> ",<% if (cli) { %>
   "bin": "cli.js",<% } %>
   "engines": {
     "node": ">=4"
