@@ -113,6 +113,7 @@ module.exports = class extends Generator {
 			mv('travis.yml', '.travis.yml');
 			mv('_package.json', 'package.json');
 			mv('_tsconfig.json', 'tsconfig.json');
+			mv('npmignore', '.npmignore');
 		});
 	}
 	git() {
