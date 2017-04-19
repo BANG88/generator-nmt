@@ -1,4 +1,4 @@
-# generator-nm [![Build Status](https://travis-ci.org/bang88/generator-nmt.svg?branch=master)](https://travis-ci.org/bang88/generator-nmt)
+# generator-nmt [![Build Status](https://travis-ci.org/bang88/generator-nmt.svg?branch=master)](https://travis-ci.org/bang88/generator-nmt)
 
 > Scaffold out a node module using TypeScript
 
