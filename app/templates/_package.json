@@ -22,16 +22,15 @@
     ""
   ],
   "dependencies": {
-		"tslib": "^1.6.0"<% if (cli) { %>,
+		"tslib": "^1.6.1"<% if (cli) { %>,
     "meow": "^3.7.0"
   <% } %>
 	},
   "devDependencies": {
 		"@types/node": "^7.0.8",
     "ava": "^0.18.2",
-    "tslint": "^4.5.1",
-    "tslint-eslint-rules": "^3.5.1",
-    "typescript": "^2.2.1"<% if (coveralls) { %>,
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"<% if (coveralls) { %>,
     "coveralls": "^2.11.12",<% } %><% if (nyc) { %>
     "nyc": "^10.0.0"<% } %>
   }<% if (coveralls) { %>,
