@@ -1,8 +1,10 @@
 {
-	"extends": [
-		"tslint-eslint-rules"
-	],
-	"rules": {
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
 		"semicolon": [
 			true,
 			"never"
@@ -10,6 +12,7 @@
 		"quotemark": [
 			true,
 			"single"
-		]
+		],
+		"indent": [true, "tabs"]
 	}
 }
