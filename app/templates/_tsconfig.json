@@ -2,20 +2,10 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"lib": [
-			"dom",
-			"es2016"
-		],
+		"lib": ["dom", "es2016"],
 		"target": "es5",
 		"declaration": true,
-		"forceConsistentCasingInFileNames": true,
-		"noImplicitReturns": true,
-		"noImplicitThis": true,
-		"noImplicitAny": false,
-		"strictNullChecks": true,
-		"suppressImplicitAnyIndexErrors": true,
-		"noUnusedLocals": true,
-		"allowSyntheticDefaultImports": true,
+		"strict": true,
 		"importHelpers": true
 	},
 	"files": [

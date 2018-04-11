@@ -107,8 +107,7 @@ module.exports = class extends Generator {
 				this.fs.copyTpl(this.templatePath('cli.ts'), this.destinationPath('cli.ts'), tpl);
 			}
 
-			mv('editorconfig', '.editorconfig');
-			mv('gitattributes', '.gitattributes');
+			mv('prettierrc', '.prettierrc');
 			mv('gitignore', '.gitignore');
 			mv('travis.yml', '.travis.yml');
 			mv('_package.json', 'package.json');

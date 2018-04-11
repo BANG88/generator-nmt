@@ -23,9 +23,8 @@ test.serial('generates expected files', async () => {
 	await pify(generator.run.bind(generator))();
 
 	assert.file([
-		'.editorconfig',
 		'.git',
-		'.gitattributes',
+		'.prettierrc',
 		'.gitignore',
 		'.travis.yml',
 		'index.ts',

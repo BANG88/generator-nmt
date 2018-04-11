@@ -5,3 +5,4 @@ coverage<% } %>
 *.d.ts
 .yo-rc.json
 .vscode
+yarn-error.log
